@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Circular Stopwatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stopwatch-container">
+    <div class="stopwatch">
+      <div id="time-display">00:00:00.000</div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="btn start">Start</button>
+      <button id="stop-btn" class="btn stop" disabled>Stop</button>
+      <button id="reset-btn" class="btn reset">Reset</button>
+      <button id="lap-btn" class="btn lap">Lap</button>
+    </div>
+    <div id="lap-list" class="lap-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
